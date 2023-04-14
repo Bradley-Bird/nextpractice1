@@ -18,6 +18,7 @@ export default function RootLayout({
                     <Link href={'/ssr'}>Go to SSR</Link>
                     <Link href={'/csr'}>Go to CSR</Link>
                     <Link href={'/'}>Go to Static</Link>
+                    <Link href={'/apiexample'}>Go to API routes example</Link>
                 </nav>
                 {children}
             </body>
