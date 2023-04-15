@@ -5,8 +5,31 @@ export const metadata = {
 
 export default function About() {
     return (
-        <main>
-            <div>welcome to the about page</div>
+        <main className="flex justify-center items-center min-h-screen flex-col gap-12 md:flex-row">
+            <div className="font-extrabold hover:bg-slate-600 transition-colors duration-500 bg-rose-500 p-5 rounded-md">
+                <h1 className="text-2xl md:text-4xl text-amber-500">
+                    welcome to the about page
+                </h1>
+                <p className="text-fuchsia-600 bg-neutral-600 rounded-full text-center mt-3">
+                    hello there
+                </p>
+            </div>
+            <div className="font-extrabold  hover:bg-slate-600 transition-colors duration-500 bg-rose-500 p-5 rounded-md">
+                <h1 className="text-2xl md:text-4xl text-amber-500">
+                    welcome to the about page
+                </h1>
+                <p className="text-fuchsia-600 bg-neutral-600 rounded-full text-center mt-3">
+                    hello there
+                </p>
+            </div>
+            <div className="font-extrabold  hover:bg-slate-600 transition-colors duration-500 bg-rose-500 p-5 rounded-md">
+                <h1 className="text-2xl md:text-4xl text-amber-500">
+                    welcome to the about page
+                </h1>
+                <p className="text-fuchsia-600 bg-neutral-600 rounded-full text-center mt-3">
+                    hello there
+                </p>
+            </div>
         </main>
     );
 }
